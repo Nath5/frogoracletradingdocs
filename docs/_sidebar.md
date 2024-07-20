@@ -10,6 +10,8 @@
   - [Overview](vpd.md)
   - [Setup](vpd_setup.md)
   - [Configuration](vpd_configuration.md)
+  - [Strategies](vpd_strategies.md)
+
 
 <!-- - [**API**](api.md)
 
