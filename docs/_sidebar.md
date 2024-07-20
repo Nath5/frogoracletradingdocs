@@ -12,9 +12,5 @@
   - [Configuration](vpd_configuration.md)
   - [Strategies](vpd_strategies.md)
 
+- [**Main Site**](https://www.frogoracletrading.com/)
 
-<!-- - [**API**](api.md)
-
-- [**Core**](core.md)
-
-- [**Tree**](tree.md) -->
