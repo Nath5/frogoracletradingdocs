@@ -35,11 +35,11 @@ To add the indicator to your charts ensure you have the chart view open in TV.
 2. When the indicator pop-up appears click the 'Invite-Only' tab on the bottom left
 3. Click on the `open space` next to the indicator name to add to your chart.
 
-`It make take a moment for the indicator to show up, don't keep clicking or you will end up with multiple instances on your chart.` 
+`It may take a moment for the indicator to show up, don't keep clicking or you will end up with multiple instances on your chart.` 
 
 [filename](_media/adding_indicator.webm ':include :type=video controls width=100% loop')
 
-> <a href="/_media/adding_indicator_mobile.mp4">View Mobile Version of Video</a>
+> <a href="/frogoracletradingdocs/_media/adding_indicator_mobile.mp4">View Mobile Version of Video</a>
 
 ## Time-Frame Constraints
 
@@ -207,7 +207,7 @@ Another use case for shorter periods is if you are trying to scalp based on a la
 
 # Strategies
 
-## Support Becomes Resistance 
+## Support Becomes Resistance (SBR)
 
 This is one of the most succesful strategies leveraging the indicator levels. The typical trade involes identifying a critical level ( one where consolidationg has happened at that level before breaking ). Scale in as price approaches the level and have a stop under the level. This allows for a very good risk to reward ratio. 
 
@@ -221,7 +221,7 @@ This is one of the most succesful strategies leveraging the indicator levels. Th
 ![image](_media/sbr_2.png ':size=100%')
 ![image](_media/sbr_3.png ':size=100%')
 
-## GAP Rejection
+## GAP Rejection (GR)
 
 * Gaps like to be filled but they also often act as resistance before getting filled.
 * Gaps can be treated as strong resistance / support for reversal plays.
@@ -229,14 +229,14 @@ This is one of the most succesful strategies leveraging the indicator levels. Th
 ![image](_media/gap_rejection.png ':size=100%')
 ![image](_media/gap_rejection_2.png ':size=100%')
 
-## DPOC Bounces
+## DPOC Bounces (DPOCB)
 
 * The DPOC often acts as a strong support / resistance level and can be played as a bounce spot.
 * Representing the highest volume node over the last X days this area represents where most of the shares have been traded.
 
 ![image](_media/dpoc_bounce.png ':size=100%')
 
-## Final Stand
+## Final Stand (FS)
 
 * This setup involves a level which has been tested many times. If it finally breaks through you can take a trade in the direction of the break with a tight stop above the level.
 * This setup is better if there is an additional confluence, in the picture below there was a head and shoulders pattern forming.
@@ -251,3 +251,17 @@ The indicator receives frequent updates to fix bugs, optimize performance, and a
 At the bottom right of your chart there is a version string. You can check that version against what is listed here on the website to ensure you are running the latest version.
 
 > CURRENT VERSION: 2.1.0
+
+# Trade Examples
+
+> SBR Trade on ARM
+
+![image](_media/t1.png ':size=100%')
+
+> SBR Trade on NVDA
+
+![image](_media/t2.png ':size=100%')
+
+> Here is an example of how you can chain several setups together for mulitple profitiable trades on a single ticker in short order.
+> 
+![image](_media/t3.png ':size=100%')
