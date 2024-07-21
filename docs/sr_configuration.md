@@ -6,7 +6,6 @@
 
 [filename](_media/access_settings.webm ':include :type=video controls width=100% loop')
 
-
 ## Presets
 
 There are many options for this indicator. To help get new users up and running there are several included presets.
@@ -19,17 +18,15 @@ There are many options for this indicator. To help get new users up and running 
 
 ![image](_media/presets.png ':size=600')
 
-
 ## Line Merging
 
-When stocks have a very tight range there will sometimes be levels which are very close together. This is especially true if you have many different time periods enabled.  The indicator supports merging levels that are close together into a new single line.  As you can see in the before and after allowing levels to be merged can clean up a noisy chart making it easier to read.
+When stocks have a very tight range there will sometimes be levels which are very close together. This is especially true if you have many different time periods enabled.  The indicator supports merging levels that are close together.  As you can see in the before and after allowing levels to be merged can clean up a noisy chart making it easier to read.
 
 ### Show Original Source Lines ‘Ghosts’
 
 This will display the original levels as a faint dashed dotted line. Merging the lines can help to clean up a noisy chart but it is important to remember that these new merged levels should be treated like ranges. Having the original levels show faintly helps to drive this point home.
 
 ![image](_media/ghost_settings.png ':size=600')
-
 
 ![image](_media/ghost_line_closeup.png ':size=600')
 > 'Ghosts' have been made more opaque for this example. The default style is much fainter.  
@@ -46,11 +43,11 @@ This values controls what is considered “Close Enough” to be merged. Behind 
 
 [filename](_media/adjusting_merge_threshold_example.webm ':include :type=video controls width=100% loop')
 
- #### Small Caps
+#### Small Caps
 
- For **Small** cap stocks ( Typically under $15 ) I have found the best 'Merge Threshold' normally falls between **1** and **3**
+For **Small** cap stocks ( Typically under $15 ) I have found the best 'Merge Threshold' normally falls between **1** and **3**
 
- #### Large Caps
+#### Large Caps
 
 For **Large** caps stocks ( Typically over $15 ) I have found the best 'Merge Threshold' normally falls between **.2** and **.5**
 

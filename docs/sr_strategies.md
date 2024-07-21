@@ -2,7 +2,7 @@
 
 ## Support Becomes Resistance (SBR)
 
-This is one of the most succesful strategies leveraging the indicator levels. The typical trade involes identifying a critical level ( one where consolidationg has happened at that level before breaking ). Scale in as price approaches the level and have a stop under the level. This allows for a very good risk to reward ratio. 
+This is one of the most successful strategies leveraging the indicator levels. The typical trade involves identifying a critical level ( one where consolidating has happened at that level before breaking ). Scaling in as price approaches the level and having a stop under ( or over depending on the direction of the trade ) the level. This creates a good risk to reward ratio. 
 
 * Find an area of strong reaction where price jumps away from a level.
 * Finding more than one reaction increases the strength of that level being strong

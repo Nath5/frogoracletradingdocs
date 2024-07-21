@@ -5,3 +5,9 @@ You can find the documentation for both the Support / Resistance indicator and t
 [Support / Resistance Indicator](sr)            |  [Volume Profile Indicator](vpd)
 :-------------------------:|:-------------------------:
 ![image](_media/sr_overview.png )  |  ![image](_media/vpd_overview.png )
+
+# Example Trades
+
+A collection of trades showing off how to use the indicators.
+
+[View Examples](examples.md)
