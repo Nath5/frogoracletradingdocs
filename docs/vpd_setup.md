@@ -1,14 +1,15 @@
 # Setup
 
-## Adjusting the Range
+## Adding the indicator
 
-Once the indicator is added to the chart you can adjust the time range to be analyzed by clicking anywhere on the indicator and then dragging the two circles that show up. See the video below for an example:
+To add the indicator to your charts, ensure you have the chart view open in TV.
 
-[filename](_media/vpd_adjust.webm ':include :type=video controls width=100% loop')
+1. Click the indicator button at the top of the window.
+2. When the indicator pop-up appears, click the 'Invite-Only' tab on the bottom left.
+3. Click on the `open space` next to the indicator name to add to your chart.
 
+`It may take a moment for the indicator to show up, don't keep clicking or you will end up with multiple instances on your chart.` 
 
-## Adjusting the Appearance
+When you first add the indicator to a chart you will be asked to select 3 settings. The first is the start of the timerange, the second is the end of the timerange. These can be set by clicking on the chart itself. After setting those the settings box will pop up, allowing you to specify if seconds based time frames should be used.  If you are a TradingView Premium member then you should enable this setting as it will allow the tool to use more detailed volume data. If you are not on the premium plan then leave this unchecked.  Clicking confirm will then add the indicator to your chart. See the whole process in the video below.
 
-There are options to adjust the visual appearance of the indicator including how wide it is allowed to be and whether or not to show the Point of Control.
-
-![image](_media/vpd_settings.png ':size=600')
+[filename](_media/vpd_add_to_chart.webm ':include :type=video controls width=100% loop')

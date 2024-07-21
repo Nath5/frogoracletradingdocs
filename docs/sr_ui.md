@@ -2,14 +2,14 @@
 
 ## Levels
 
-Each line of the chart represents either **support** (if the current price action is above the level) or **resistance** (if the current price action is above the level). 
+Each line of the chart represents either **support** (if the current price action is above the level) or **resistance** (if the current price action is below the level). 
 
 ![image](_media/support_vs_resistance.png ':size=100%')
 
 
 ## Level Table
 
-The level table is another view of the price levels and is helpful for quickly identifying where the current price is relative to the support and resistance levels. The closest level above the current price will be <span style="background-color: #22ab94; color: white;">highlighted in green</span> and the closest level below the current price will be <span style="background-color: #FF9800; color: white;">highlighted in yellow</span>. Gaps and POC ranges are shown using the left most column to indicate that the values are connected and represent a range. The table can be moved around or disabled. The number of rows can be limited which is helpful if you are trying to save screen real estate. 
+The level table is another view of the price levels and is helpful for quickly identifying where the current price is relative to the support and resistance levels. The closest level above the current price will be <span style="background-color: #22ab94; color: white;">highlighted in green</span> and the closest level below the current price will be <span style="background-color: #FF9800; color: white;">highlighted in orange</span>. Gaps and POC ranges are shown using the left most column to indicate that the values are connected and represent a range. The table can be moved around or disabled. The number of rows can be limited which is helpful if you are trying to save screen real estate. 
 
 Table UI                   |  Settings
 :-------------------------:|:-------------------------:

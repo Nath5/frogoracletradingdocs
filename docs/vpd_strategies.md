@@ -8,7 +8,7 @@ Use range based profile over the consolidation range. Find the highest volume no
 
 ## Volume Trend Setup [VT]
 
-In a trending market, moving up or down smoothly. Use the volume profile over the trending area to identify areas of denser volume. Use these areas for support / resistance and trade them for a bounce. An ideal setup using this is this in combination with a 'Support Becomes Resistance' setup using the S/R indicator.
+In a trending market, moving up or down smoothly. Use the volume profile over the trending area to identify areas of denser volume. Use these areas for support / resistance and trade them for a bounce. It is ideal to use VT in combination with other setups, like 'Support Becomes Resistance' using the S/R indicator.
 
 ![image](_media/vpd_strategy_trend.png ':size=100%')
 

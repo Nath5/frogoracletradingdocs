@@ -8,11 +8,11 @@ This page contains a list of example trades using the indicators and will hopefu
 
 ![image](_media/t2.png ':size=100%')
 
-> Here is an example of how you can chain several setups together for mulitple profitiable trades on a single ticker in short order.
+> Here is an example of how you can chain several setups together for multiple profitable trades on a single ticker in short order.
 
 ![image](_media/t3.png ':size=100%')
 
-> **SPY - 2023/01/16:** The POC ( Volume Point of Control ) is one of the best levels to use for support / resistance. Here SPY presented an early long opportunity right after open with a retest of the Pre-Market low.  You can see how each test of the top of the POC was rejected hard, providing good short opportunities.
+> **SPY - 2023/01/16:** The POC (Volume Point of Control) is one of the best levels to use for support / resistance. Here SPY presented an early long opportunity right after open with a retest of the Pre-Market low.  You can see how each test of the top of the POC was rejected hard, providing good short opportunities.
 
 ![image](_media/ex_1.png ':size=100%')
 
@@ -25,10 +25,10 @@ This page contains a list of example trades using the indicators and will hopefu
 ![image](_media/ex_3.png ':size=100%')
 
 > **MDRX - 2023/01/16:** Look how cleanly MDRX followed the levels on this trade.  
-> - At open it fell and found support at $9.00 a mental leve (1). 
+> - At open it fell and found support at $9.00 a mental level (1). 
 > - It then bounced and began to consolidate between the PDL and PDC (2). 
 > - Breaking out of this range it continued up until it found resistance at 9.40 a volume and price resistance levels (3). 
-> - Clearing this level if finally found it’s peak at 9.50 (4) another mental level.  
+> - Clearing this level it finally found it’s peak at 9.50 (4) another mental level.  
 > - Afterward you can see how the 9.40 level was tested once as support and then resistance (5).   
 
 ![image](_media/ex_4.png ':size=100%')
@@ -37,7 +37,7 @@ This page contains a list of example trades using the indicators and will hopefu
 
 ![image](_media/ex_5.png ':size=100%')
 
-> **SPY - 2023/01/19:** This setup shows one of the best ways to leverage these levels. Look at how SPY is range bounce between (1) and (2). You could scalp these levels while waiting for a break in one direction or another. In this case SPY broke up while you could trade the break of resistance another options is to wait for the retest. At (3) we see a perfect back-test and then SPY continued up to the PMH (4) .
+> **SPY - 2023/01/19:** This setup shows one of the best ways to leverage these levels. Look at how SPY is range bound between (1) and (2). You could scalp these levels while waiting for a break in one direction or another. In this case SPY broke up, and while you could trade the break of resistance, another option is to wait for the retest. At (3) we see a perfect back-test and then SPY continued up to the PMH (4) .
 
 ![image](_media/ex_6.png ':size=100%')
 

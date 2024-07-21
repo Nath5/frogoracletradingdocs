@@ -6,6 +6,6 @@ The volume profile indicator is designed to show what areas within a price range
 
 ## Premium Only Feature
 
-In the settings there is a check box to use seconds based granularity. While this greatly improves the resolution of the volume profile it is only available to Premium TradingView subscribers. The tool will still work fine without enabling that feature so don't wory if you are on a lower TV plan.
+In the settings there is a check box to use seconds based granularity. While this greatly improves the resolution of the volume profile, it is only available to Premium TradingView subscribers. The tool will still work well without enabling that feature so don't worry if you are on a lower TV plan.
 
 ![image](_media/vpd_constraint.png ':size=600')
