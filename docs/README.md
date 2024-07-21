@@ -1,6 +1,6 @@
 # The Indicators
 
-You can find the documentation for both the Support / Resistance indicator and the Volume Profile indicator here including stratgies for using them succesfully and example trades. If you find any information missing please reach out and let me know!
+You can find the documentation for both the Support / Resistance indicator and the Volume Profile indicator here including strategies for using them successfully and examples of trades. If you find any information missing please reach out and let me know!
   
 [Support / Resistance Indicator](sr)            |  [Volume Profile Indicator](vpd)
 :-------------------------:|:-------------------------:

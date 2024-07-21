@@ -2,20 +2,14 @@
 
 ## Levels
 
-Each line of the chart represents either **support** ( if the currenct price action is above the level) or **resistance** ( if the current price action is above the level ). 
+Each line of the chart represents either **support** (if the current price action is above the level) or **resistance** (if the current price action is above the level). 
 
 ![image](_media/support_vs_resistance.png ':size=100%')
 
 
 ## Level Table
 
-The level table is another view of the price levels and is helpful for quickly identifying where the current price is relative to the support and resistance levels.  
-
-The closest level above the current price will be highlighted in green ( by default ) and the closest level below the current price will be highlighted in yellow ( by default ).
-
-Gaps and POC ranges are shown using the left most column to indicate that the values are connected and represent a range.
-
-The table can be moved around or disabled. The number of rows can be limited which is helpful if you are trying to save screen real estate. 
+The level table is another view of the price levels and is helpful for quickly identifying where the current price is relative to the support and resistance levels. The closest level above the current price will be <span style="background-color: #22ab94; color: white;">highlighted in green</span> and the closest level below the current price will be <span style="background-color: #FF9800; color: white;">highlighted in yellow</span>. Gaps and POC ranges are shown using the left most column to indicate that the values are connected and represent a range. The table can be moved around or disabled. The number of rows can be limited which is helpful if you are trying to save screen real estate. 
 
 Table UI                   |  Settings
 :-------------------------:|:-------------------------:
@@ -28,7 +22,7 @@ Each line on the chart has an associated label which can be tweaked and disabled
 
 ![image](_media/labels.png)
 
-If `'Include Analysis Length'` is enabled in the settings, each label will have a number inside parenthesis ex. ( 240 ). This number represents which analysis length was used to derive the level.  Some stocks will tend to respect certain lengths more than others so having this on the label can help inform how much confidence you put into each specific level.
+If `'Include Analysis Length'` is enabled in the settings, each label will have a number inside parenthesis ex. ( 240 ). This number represents which analysis length was used to derive the level.  Some stocks will tend to respect certain lengths more than others, so having this on the label can help inform how much confidence you put into each specific level.
 
 After the analysis period there is a section for sub-type. This is primarily used for the Pre-Market and Previous Day levels to let you know what specifically each level represents.  
 
@@ -56,10 +50,11 @@ Hovering over the label will display a pop-up with additional information includ
 
 > A colon in the label shows that this level was merged with another of a different type. The values after the “:” will let you know the type that was merged. In the picture look at the Volume level in blue at 1.69. The “: P” at the end shows that this level merged with a Price level.
 
+![image](_media/label_merged.png ':size=300')
 
 ## Level Bands - Ranges
 
-In the settings there is an option to enable Boxes around each level.  This will draw a box, in addition to a line, around each level to help remind you that the levels represent ranges and not exact values. Although you will often see price react to the levels very precisely, each level is calculated with a certain amount of uncertainty. Showing them as a box is a helpful reminder to not trade to the exact price shown.
+In the settings there is an option to enable Boxes around each level.  This will draw a box, in addition to a line, around each level to help remind you that the levels represent ranges and not exact values. Although you will often see prices react to the levels very precisely, each level is calculated with a certain amount of uncertainty. Showing them as a box is a helpful reminder to not trade to the exact price shown.
 
 The box sizing is scaled for each ticker based on an average of the tickers ADR or Average Daily Range. This works well for most, but for some tickers you may find the boxes are too small or large. In this case using the “Box Size Multiplier” will allow you to fine tune the box sizing.
 

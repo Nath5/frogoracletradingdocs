@@ -1,9 +1,11 @@
+# Setup
+
 ## Adding the indicator
 
-To add the indicator to your charts ensure you have the chart view open in TV.
+To add the indicator to your charts, ensure you have the chart view open in TV.
 
-1. Click the indicator button at the top of the window
-2. When the indicator pop-up appears click the 'Invite-Only' tab on the bottom left
+1. Click the indicator button at the top of the window.
+2. When the indicator pop-up appears, click the 'Invite-Only' tab on the bottom left.
 3. Click on the `open space` next to the indicator name to add to your chart.
 
 `It may take a moment for the indicator to show up, don't keep clicking or you will end up with multiple instances on your chart.` 

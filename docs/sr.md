@@ -1,12 +1,11 @@
 
 ## Introduction
 
-Each stock has its own personality and the indicator is designed to be flexible allowing you tune it for each chart. Learning when and how to adjust these settings can make a large impact in your success leveraging the indicator.
-
+Each stock has its own personality and the indicator is designed to be flexible, allowing you tune it for each chart. Learning when and how to adjust these settings can make a large impact in your success leveraging the indicator.
 
 ## Types of Lines
 
-By default there are 4 types of levels represented on the chart.  These can be turned off and on individually in the settings. For example,  if you don't want to see the POC because you are already using another volume profile indicator you could disable that type from the settings. Each type of level is defined below:
+By default there are 4 types of levels represented on the chart. These can be turned off and on individually in the settings. For example, if you don't want to see the POC because you are already using another volume profile indicator,  you could disable that type from the settings. Each type is defined below:
 
 * **<span style="color: #ce7feb">■</span> Price Derived S/R ( P ):** These lines are derived from pivot points in the raw price data run through the S/R algorithm. 
 

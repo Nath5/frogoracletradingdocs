@@ -12,5 +12,7 @@
   - [Configuration](vpd_configuration.md)
   - [Strategies](vpd_strategies.md)
 
+- [**Example Trades**](examples.md)
+
 - [**Main Site**](https://www.frogoracletrading.com/)
 
