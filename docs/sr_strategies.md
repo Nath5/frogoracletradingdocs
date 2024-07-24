@@ -1,5 +1,11 @@
 # Strategies
 
+For all strategies finding multiple confluences is a great way to increase the chances of a successful trade. I will often layer Fibonacci and Volume Profile levels over the S/R levels. Look for places where the different approaches point to the same price range and trade these areas of high confluence more confidently and with greater size.
+
+> Here the bounce happened at an S/R level, in the fib golden zone ( .5 to .618 ) and at the bottom of a volume profile node.
+
+![image](_media/confluence_1.png ':size=100%')
+
 ## Support Becomes Resistance (SBR)
 
 This is one of the most successful strategies leveraging the indicator levels. The typical trade involves identifying a critical level (one where consolidating has happened at that level before breaking). Scaling in as price approaches the level and having a stop under (or over depending on the direction of the trade) the level. This creates a good risk to reward ratio. 
@@ -21,6 +27,12 @@ This is one of the most successful strategies leveraging the indicator levels. T
 
 ![image](_media/gap_rejection.png ':size=100%')
 ![image](_media/gap_rejection_2.png ':size=100%')
+
+## GAP Close Reversal (GCR)
+
+* Once a GAP is closed you will often see at least a scalp-able reversal happen. This is especially true if it takes several days to close the gap.
+
+![image](_media/sr_strategy_gcr_1.png ':size=100%')
 
 ## DPOC Bounces (DPOCB)
 
