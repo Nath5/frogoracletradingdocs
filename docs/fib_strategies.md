@@ -1,5 +1,3 @@
-# Fibonacci Retracements and Extensions
-
 ## Golden Zone Reversal [GZ]
 
 * .5 -> .786 Fib retracements are areas where the price often reverses back to the direction of the trend.

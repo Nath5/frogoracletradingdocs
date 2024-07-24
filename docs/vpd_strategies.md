@@ -1,5 +1,3 @@
-# Strategies
-
 ## Volume Accumulation Setup [VAS]
 
 Use range based profile over the consolidation range. Find the highest volume nodes and watch for a retest of those nodes or the POC to take a trade in the direction of the trend.
