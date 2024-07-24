@@ -6,6 +6,12 @@ You can find the documentation for both the Support / Resistance indicator and t
 :-------------------------:|:-------------------------:
 ![image](_media/sr_overview.png )  |  ![image](_media/vpd_overview.png )
 
+# Strategies
+A collection of strategies that leverage the S/R indicator, Volume Profile, and Fibonacci Retracements and Extensions.
+
+[View Strategies](sr_strategies.md)
+
+
 # Example Trades
 
 A collection of trades showing off how to use the indicators.
