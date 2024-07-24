@@ -55,3 +55,7 @@ This page contains a list of example trades using the indicators and will hopefu
 > **NIO - 2024/05/01:** Here on NIO is another great example of a break and retest. 
 
 ![image](_media/ex_9.png ':size=100%')
+
+> **SPY - 2024/07/23:** Simple (SBR) trade on SPY. Remember that you can also use trade vehicles like futures and trade of SPY levels. For this trade I used ES for the actual trade but the SPY chart to time entry. 
+
+![image](_media/ex_10.png ':size=100%')
