@@ -1,7 +1,7 @@
 ## Golden Zone Reversal [GZ]
 
-* .5 -> .786 Fib retracements are areas where the price often reverses back to the direction of the trend.
-* These can often be traded scaling out on each level and then holding runners in case a new LOD or HOD is formed.
+* .5 -> .786 Fib retracements are areas where the price often reverses back in the direction of the trend.
+* These can often be traded, scaling out on each level and then holding runners in case a new LOD or HOD is formed.
 
 ![image](_media/fib_gz.png ':size=100%')
 

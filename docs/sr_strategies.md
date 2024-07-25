@@ -1,6 +1,6 @@
 # Strategies
 
-For all strategies finding multiple confluences is a great way to increase the chances of a successful trade. I will often layer Fibonacci and Volume Profile levels over the S/R levels. Look for places where the different approaches point to the same price range and trade these areas of high confluence more confidently and with greater size.
+For all strategies, finding multiple confluences is a great way to increase the chances of a successful trade. I will often layer Fibonacci and Volume Profile levels over the S/R levels. Look for places where the different approaches point to the same price range and trade these areas of high confluence more confidently and with greater size.
 
 > Here the bounce happened at an S/R level, in the fib golden zone ( .5 to .618 ) and at the bottom of a volume profile node.
 
