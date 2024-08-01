@@ -63,3 +63,6 @@ This page contains a list of example trades using the indicators and will hopefu
 > **SPY - 2024/07/31:** Two (SBR) trades on SPY and a (GCR). Notice that on the second SBR the price action dropped below the level before quickly ripping back up. Ensuring you have proper stops that provide a little room for these fake-outs is very important. You can always add to a position after the reversal is confirmed. 
 
 ![image](_media/ex_11.png ':size=100%')
+
+> **SPY - 2024/08/01:** SPY trended down all day presenting many opportunities to enter using the (SBR) strategy.
+![image](_media/ex_12.png ':size=100%')
