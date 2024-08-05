@@ -69,3 +69,6 @@ This page contains a list of example trades using the indicators and will hopefu
 
 > **SPY - 2024/08/02:** SPY presented a great example of a (GR) Gap Rejection and two (SBR) Support / Resistance Break and Retest trades.
 ![image](_media/ex_13.png ':size=100%')
+
+> **SPY - 2024/08/05:** After a large overnight drop there was a (GR) long play pre-market. Followed by several (SBR) short scalps throughout the day as levels were back-tested.
+![image](_media/ex_14.png ':size=100%')
