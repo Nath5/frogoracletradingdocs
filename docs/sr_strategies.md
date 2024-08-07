@@ -6,9 +6,9 @@ For all strategies, finding multiple confluences is a great way to increase the 
 
 ![image](_media/confluence_1.png ':size=100%')
 
-## Support Becomes Resistance and Vice Versa (SBR)
+## Support Becomes Resistance (SBR)
 
-This is one of the most successful strategies leveraging the indicator levels. The typical trade involves identifying a critical level (one where consolidating has happened at that level before breaking). Scaling in as price approaches the level and having a stop under (or over depending on the direction of the trade) the level. This creates a good risk to reward ratio. 
+This is one of the most successful strategies leveraging the indicator levels and works in both the Long and Short directions. The typical trade involves identifying a critical level (one where consolidating has happened at that level before breaking). Scaling in as price approaches the level and having a stop under (or over depending on the direction of the trade) the level. This creates a good risk to reward ratio. 
 
 * Find an area of strong reaction where price jumps away from a level.
 * Finding more than one reaction increases the likelihood of that level being defended.
