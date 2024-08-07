@@ -6,7 +6,7 @@ For all strategies, finding multiple confluences is a great way to increase the 
 
 ![image](_media/confluence_1.png ':size=100%')
 
-## Support Becomes Resistance (SBR)
+## Support Becomes Resistance and Vice Versa (SBR)
 
 This is one of the most successful strategies leveraging the indicator levels. The typical trade involves identifying a critical level (one where consolidating has happened at that level before breaking). Scaling in as price approaches the level and having a stop under (or over depending on the direction of the trade) the level. This creates a good risk to reward ratio. 
 
@@ -48,3 +48,10 @@ This is one of the most successful strategies leveraging the indicator levels. T
 * This setup can also be played as a `Support Becomes Resistance` play by waiting for a retest instead of playing the break directly.
 
 ![image](_media/fs_1.png ':size=100%')
+
+## Bounce And Pop (BAP)
+
+* This setup involves a level which has been tested, rejects and then pushes back through. 
+* These tend to continue up or down to the next critical level and will often have a decent push following the level break.
+
+![image](_media/sr_strategy_bap_1.png ':size=100%')
