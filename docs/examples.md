@@ -72,3 +72,6 @@ This page contains a list of example trades using the indicators and will hopefu
 
 > **SPY - 2024/08/05:** After a large overnight drop there was a (GR) long play pre-market. Followed by several (SBR) short scalps throughout the day as levels were back-tested.
 ![image](_media/ex_14.png ':size=100%')
+
+> **SPY - 2024/08/21:** Excellent example of a (GR) to the short side.
+![image](_media/ex_15.png ':size=100%')
