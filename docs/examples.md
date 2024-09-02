@@ -75,3 +75,7 @@ This page contains a list of example trades using the indicators and will hopefu
 
 > **SPY - 2024/08/21:** Excellent example of a (GR) to the short side.
 ![image](_media/ex_15.png ':size=100%')
+
+> **MES (Micro E-mini S&P 500) - 2024/09/02:** This chart shows two clean (SBR) trades on ES futures including using the volume profile to find an area of support to scale out of the short trade.
+![image](_media/ex_16.png ':size=100%')
+
