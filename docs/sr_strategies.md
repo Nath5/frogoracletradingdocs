@@ -58,7 +58,7 @@ This is one of the most successful strategies leveraging the indicator levels an
 
 ## Failed Breakdown / Breakout (FB)
 
-* This setup involves a level which has been tested and bounced. Often there will be another push above or below to trap traders before reversing hard. This setup can be played anywhere on the chart but works even better when it happens at a critical level.
+* This setup involves a level which has been tested and bounced. Often there will be another push above or below to trap traders before reversing hard. 
 * Enter once price crosses above the high of the breakdown bar or crosses below the low of the breakout bar and ride to the next level.
 
 ![image](_media/sr_strategy_fb_1.png ':size=100%')
