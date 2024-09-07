@@ -79,3 +79,6 @@ This page contains a list of example trades using the indicators and will hopefu
 > **MES (Micro E-mini S&P 500) - 2024/09/02:** This chart shows two clean (SBR) trades on ES futures including using the volume profile to find an area of support to scale out of the short trade.
 ![image](_media/ex_16.png ':size=100%')
 
+> **SPY - 2024/09/05:** Here is a very clean Fib Golden Zone Reversal (GZ) + False Breakout (FB) trade. Look at the strong wick down right at the .618 level after pushing through the previous pivot made at the volume node. A quick liquidity grab before reversing to the downside.
+![image](_media/ex_17.png ':size=100%')
+
