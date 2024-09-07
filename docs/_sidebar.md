@@ -1,4 +1,5 @@
 <!-- docs/_sidebar.md -->
+
 - Support / Resistance
   - [Overview](sr.md)
   - [Setup](sr_setup.md)
@@ -18,5 +19,9 @@
 
 - [**Example Trades**](examples.md)
 
-- [**Main Site**](https://www.frogoracletrading.com/)
+- Links 
+  - [FrogOracle Trading Home](https://www.frogoracletrading.com/)
+  - [Get The Indicator](https://www.frogoracletrading.com/get-the-indicator)
+  - [Stocktwits](https://stocktwits.com/frogoracletrading)
+  - [X](https://x.com/thetradingfrog)
 
