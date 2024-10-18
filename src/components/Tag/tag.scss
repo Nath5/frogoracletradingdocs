@@ -1,0 +1,18 @@
+:root {
+    --badge-text: black;
+}
+
+[data-theme='dark'] {
+    --badge-text: black;
+}
+
+.badge {
+    margin-right: 1em;
+    font-size: 95%;
+    color: var(--badge-text);
+    padding: .6em;
+}
+
+.badge:hover{
+    filter: brightness(125%);
+}
