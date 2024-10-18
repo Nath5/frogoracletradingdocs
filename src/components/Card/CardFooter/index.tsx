@@ -47,10 +47,19 @@ const CardFooter: React.FC<CardFooterProps> = ({
         textBreak,
         textTruncate,
         textWeight
-      )}
+      )} 
       style={style}
     >
-     <span style={{fontWeight:'bold', paddingRight: '1em'}}>Strategies:</span> {children}
+
+      <div className="container">
+        <div className="row">
+          {React.Children.map(children, (child, index) => (
+            <div className="col" style={{padding: '.2em'}} key={index}>
+              {child}
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };
