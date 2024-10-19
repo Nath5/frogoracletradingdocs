@@ -86,7 +86,7 @@
 :root {
 
   --ifm-container-width-xl: 1600px;
-  
+
 
   /* Custom Variables */
   --neutral-mid-400: #99a0aa;
@@ -399,7 +399,12 @@ svg[class*="iconExternalLink"] {
 // .container>div>div:first-child {
 //   padding: 2.5rem 2.5rem !important;
 // }
-.card__footer{
+.card__footer {
   margin-top: 0em;
   padding-top: .4em;
+
+  .col {
+    flex: unset;
+    width: unset;
+  }
 }

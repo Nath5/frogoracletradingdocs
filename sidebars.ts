@@ -19,7 +19,7 @@ const sidebars: SidebarsConfig = {
   docs: [
     {
       type: "doc",
-      id: "Welcome",
+      id: "welcome",
       label: "Introduction"
     },
     {
