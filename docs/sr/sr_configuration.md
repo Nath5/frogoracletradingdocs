@@ -73,7 +73,7 @@ Experiment with which timeframes are being displayed on each chart until you fin
 
  When a ticker is making new highs / lows (i.e. breaking out of its previous historical range), the lower timeframe analysis periods help to get more up to date levels. These shorter term levels will capture more of the intraday price action but can also be weaker than the longer term ones so scale your positions accordingly.
 
-:::note
+:::info
 At the start of this video you can see that there is a bunch of price action above 220 where the longer analysis period levels have not caught up. By turning the 30 day levels on we can capture this price action.  
 :::
 
