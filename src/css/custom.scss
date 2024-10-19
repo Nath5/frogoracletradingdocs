@@ -86,6 +86,7 @@
 :root {
 
   --ifm-container-width-xl: 1600px;
+  
 
   /* Custom Variables */
   --neutral-mid-400: #99a0aa;
@@ -288,7 +289,7 @@ html[data-theme='dark'] {
 
 .theme-doc-sidebar-item-link-level-1,
 .theme-doc-sidebar-item-category {
-  padding: 1em !important;
+  padding: .6em 1em !important;
   border-bottom: 1px solid var(--color-gray-205);
 }
 

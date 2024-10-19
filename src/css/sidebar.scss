@@ -113,6 +113,15 @@ body .menu {
       }
     }
 
+    .theme-doc-sidebar-item-category-level-1,
+    .theme-doc-sidebar-item-link-level-1 {
+      > .menu__link {
+        &::before {
+          margin-right: -2.2rem !important;
+        }
+      }
+    }
+
     .menu__list {
 
       /* 2nd level links */
@@ -218,6 +227,6 @@ body .menu .menu__list .menu__link[href]:not([href="#"]):not([href=""])[aria-cur
   margin: 2px;
 }
 
-[data-theme=dark] body .menu  {
+[data-theme=dark] body .menu {
   border-bottom: 1px solid var(--color-dark-header-border);
 }
