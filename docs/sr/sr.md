@@ -10,6 +10,10 @@ Each stock has its own personality and the indicator is designed to be flexible,
 
 <Button label="View on TradingView" link="https://www.tradingview.com/script/GLb7itby-FrogOracle-Support-Resistance-Levels/" variant="primary" size="lg" style={{marginBottom: '1em'}} block/>
 
+## Data Updates
+
+The levels for this indicator are recalculated every night and published into TV each morning around 7am. You do not need to do anything to get these updates they should automatically appear on your chart.
+
 ## Types of Lines
 
 By default there are 4 types of levels represented on the chart. These can be turned off and on individually in the settings. For example, if you don't want to see the POC because you are already using another volume profile indicator,  you could disable that type from the settings. Each type is defined below:
