@@ -13,7 +13,8 @@ function getStrategyLink(className: string): string {
     'ts-bap': '/strategies/sr_strategies#bounce-and-pop-bap',
     'ts-fb': '/strategies/sr_strategies#failed-breakdown-breakout-fb',
     'ts-gz': '/strategies/fib_strategies#golden-zone-reversal-gz',
-    'ts-272': '/strategies/fib_strategies#272-extension-reversal-272'
+    'ts-272': '/strategies/fib_strategies#272-extension-reversal-272',
+    'ts-vas': '/strategies/vpd_strategies#volume-accumulation-setup-vas'
   };
 
   return strategyLinks[className] || '';
