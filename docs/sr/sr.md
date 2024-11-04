@@ -40,4 +40,4 @@ The indicator receives frequent updates to fix bugs, optimize performance, and a
 
 At the bottom right of your chart there is a version string. You can check that version against what is listed here on the website to ensure you are running the latest version.
 
-> CURRENT VERSION: 2.1.3
+> CURRENT VERSION: 2.1.4
