@@ -24,7 +24,7 @@ By default there are 4 types of levels represented on the chart. These can be tu
 
 * <span style={{color: "#c6c2a7"}}>■</span> **Point of Control ( POC ):** This range represents where the majority of intra-day volume occurred over the requested timeframe.
 
-* <span style={{color: "#fead6c"}}>■</span> **Developing Point of Control ( DPOC ):** This level is derived from the last 1+ days of volume data in realtime and shows where the most shares have been traded..
+* <span style={{color: "#fead6c"}}>■</span> **Developing Point of Control ( DPOC ):** This level is derived from the last 1+ days of volume data in realtime and shows where the most shares have been traded.
 
 * <span style={{color: "#5bf09c"}}>■</span> **Gap ( G ):** These ranges show areas of gaps in the price action which often act as magnets. Gaps like to be closed.
 

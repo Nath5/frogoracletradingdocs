@@ -413,3 +413,7 @@ svg[class*="iconExternalLink"] {
     width: unset;
   }
 }
+
+[data-theme="dark"] ol li {
+  color: var(--base-neutral-0);
+}
