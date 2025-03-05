@@ -16,7 +16,7 @@ The levels are recalculated every night and published into TV / Portal each morn
 
 FrogOracle is available in two formats:
 
-1. **Trading Portal** (this documentation): A standalone web application with comprehensive features
+1. **Trading Portal**: A standalone web application with comprehensive features
 2. **TradingView Indicator**: A custom indicator that can be added to TradingView charts
 
 ## Types of Lines
