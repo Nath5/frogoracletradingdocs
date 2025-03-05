@@ -1,0 +1,67 @@
+# Configuration Panel
+
+The Configuration panel allows you to customize the chart display and S/R level settings. Most of these settings are syncronized with your account and will persist across sessions and different devices.
+
+1. Click the gear icon in the sidebar
+2. The Configuration panel has two tabs:
+   - **Settings**: Control visibility and behavior of S/R levels
+   - **Look and Feel**: Customize colors for different level types
+
+#### Settings Tab
+
+- **Show Levels**: Toggle visibility of all S/R levels
+- **Show Labels**: Toggle visibility of level labels
+- **Merge Threshold**: Adjust how closely spaced levels are merged (0.1-10%)
+- **Time Periods**: Toggle visibility of different analysis periods (90d, 120d, 180d, 240d, 360d)
+- **Level Types**: Toggle visibility of different level types:
+  - Core Level Types (P, V, G, POC)
+  - Previous Day OHLC (PDO, PDH, PDL, PDC)
+  - Mental Levels
+
+![image](_media/ui/chart_controls.png ':size=600')
+
+### Configuring Mental Levels
+
+1. Open the Configuration panel (gear icon in the sidebar)
+2. Ensure the "Mental" level type is enabled
+3. Adjust the mental level settings:
+
+![image](_media/ui/mental_config.png ':size=600')
+
+#### Number of Levels
+
+Control how many mental levels are displayed above and below the current price. The default is 3 levels in each direction.
+
+#### Interval Settings
+
+Mental levels use different interval spacing based on the price range of the asset:
+
+- **Less than 1**: For low-priced assets (default: 0.1)
+- **1-10**: For assets priced between $1-$10 (default: 0.5)
+- **10-100**: For assets priced between $10-$100 (default: 1)
+- **100-1000**: For assets priced between $100-$1000 (default: 5)
+- **Above 1000**: For assets priced above $1000 (default: 10)
+
+These intervals determine the spacing between mental levels. For example, with the default settings, a stock trading at $50 would show mental levels at $47, $48, $49, $51, $52, and $53.
+
+### Using Mental Levels
+
+Mental levels are particularly useful for:
+
+- Identifying potential reversal points at round numbers
+- Setting stop-loss or take-profit levels
+- Understanding where other traders might have placed orders
+- Complementing algorithmically detected support/resistance levels
+
+#### Look and Feel Tab
+
+- **Level Colors**: Customize colors for each level type
+- **Candlestick Colors**: Customize colors for bullish and bearish candlesticks
+
+![image](_media/ui/look_and_feel.png ':size=600')
+
+### Preview Mode (Mobile)
+
+On mobile devices, the Configuration panel includes a "Hold to Preview Chart" button that temporarily hides the panel to show the full chart while pressed.
+
+![image](_media/ui/preview_button.png ':size=600')

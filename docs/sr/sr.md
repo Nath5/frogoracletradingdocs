@@ -8,11 +8,16 @@ sidebar_position: 1
 
 Each stock has its own personality and the indicator is designed to be flexible, allowing you tune it for each chart. Learning when and how to adjust these settings can make a large impact in your success leveraging the indicator.
 
-<Button label="View on TradingView" link="https://www.tradingview.com/script/GLb7itby-FrogOracle-Support-Resistance-Levels/" variant="primary" size="lg" style={{marginBottom: '1em'}} block/>
-
 ## Data Updates
 
-The levels for this indicator are recalculated every night and published into TV each morning around 7am. You do not need to do anything to get these updates they should automatically appear on your chart.
+The levels are recalculated every night and published into TV / Portal each morning around 7am. You do not need to do anything to get these updates they should automatically appear on your chart.
+
+## Portal vs TradingView Indicator
+
+FrogOracle is available in two formats:
+
+1. **Trading Portal** (this documentation): A standalone web application with comprehensive features
+2. **TradingView Indicator**: A custom indicator that can be added to TradingView charts
 
 ## Types of Lines
 
@@ -33,11 +38,3 @@ By default there are 4 types of levels represented on the chart. These can be tu
 * <span style={{color: "#62f0e4"}}>■</span> **Previous Day ( PD ):** Displays the previous days High, Low and Close on the chart and table.
 
 * <span style={{color: "#62f0e4"}}>■</span> **Pre-Market ( PM ):** Displays the pre-market High, Low and Close on the chart and table.
-
-## Updating The Indicator
-
-The indicator receives frequent updates to fix bugs, optimize performance, and add new features. TradingView will send out an email each time an update is released.  The indicator on your chart will not automatically update. To apply the update, remove the indicator using the X as seen in the picture, restart TV / refresh the webpage, and then add the indicator back the same as you did the first time.  You will need to reconfigure your settings so take note of them before you update.
-
-At the bottom right of your chart there is a version string. You can check that version against what is listed here on the website to ensure you are running the latest version.
-
-> CURRENT VERSION: 2.1.4

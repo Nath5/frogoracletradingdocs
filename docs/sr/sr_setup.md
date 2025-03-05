@@ -4,6 +4,9 @@ sidebar_position: 2
 
 # Setup
 
+<Button label="View on TradingView" link="https://www.tradingview.com/script/GLb7itby-FrogOracle-Support-Resistance-Levels/" variant="primary" size="lg" style={{marginBottom: '1em'}} block/>
+
+
 ## Adding the indicator
 
 To add the indicator to your charts, ensure you have the chart view open in TV.
@@ -42,3 +45,11 @@ The levels will cause the chart to scale improperly as TV tries to fit them all 
 :::
 
 <video src="/line_scaling_example.webm" controls width="100%" type="video/webm"></video>
+
+## Updating The Indicator
+
+The indicator receives frequent updates to fix bugs, optimize performance, and add new features. TradingView will send out an email each time an update is released.  The indicator on your chart will not automatically update. To apply the update, remove the indicator using the X as seen in the picture, restart TV / refresh the webpage, and then add the indicator back the same as you did the first time.  You will need to reconfigure your settings so take note of them before you update.
+
+At the bottom right of your chart there is a version string. You can check that version against what is listed here on the website to ensure you are running the latest version.
+
+> CURRENT VERSION: 2.1.4

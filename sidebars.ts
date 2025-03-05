@@ -28,10 +28,29 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       items: [
         'sr/sr',
-        'sr/sr_setup',
-        'sr/sr_ui',
-        'sr/sr_configuration'
-
+        {
+          type: 'category',
+          label: 'Web Portal',
+          collapsed: true,
+          items: [
+            'sr/portal/intro',
+            'sr/portal/getting-started',
+            'sr/portal/portal-ui',
+            'sr/portal/configpanel',
+            'sr/portal/news-insider',
+            'sr/portal/faq'
+          ]
+        },
+      
+        {
+          type: 'category',
+          label: 'Trading View Indicator',
+          items: [
+            'sr/sr_setup',
+            'sr/sr_ui',
+            'sr/sr_configuration'
+          ],
+        }
       ],
     },
     {

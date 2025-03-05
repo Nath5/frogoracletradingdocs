@@ -28,6 +28,12 @@ This is one of the most successful strategies leveraging the indicator levels an
     Focus on levels where there have been strong price reactions in the past. Look for areas with large wicks, indicating that the price quickly rejected the level.
     The more historical reactions you see at this level, the higher the likelihood it will be defended or retested.
     Make sure to note both the exact level and the surrounding area, as markets can often overshoot or slightly undershoot precise levels. This is where using the "Show Boxes Around Levels" option in the indicator can help.
+    Keep in mind that once a level has been tested once and rejected if price moves back up to test again it is more likely to break through. Therefore normally it is best to only take a SBR trade on the first retest.
+
+:::note 
+Example of skipping second attempt at SBR
+![image](_media/sr/sbr_second_attempt.png ':size=10%')
+:::
 
 3. Wait for a Level Breach
 
