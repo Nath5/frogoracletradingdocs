@@ -38,6 +38,8 @@ const sidebars: SidebarsConfig = {
             'sr/portal/portal-ui',
             'sr/portal/configpanel',
             'sr/portal/news-insider',
+            'sr/portal/calendar-earnings',
+            'sr/portal/watchlist',
             'sr/portal/faq'
           ]
         },
