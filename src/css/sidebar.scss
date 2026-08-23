@@ -76,48 +76,19 @@ body .menu {
       text-overflow: ellipsis;
       overflow: hidden;
 
-      /* Link hover effects */
+      /* Link hover / active effects */
       &[href]:not([href="#"]):not([href=""]) {
 
-        /* Blue dot indicator */
-        &::before {
-          content: "";
-          right: 100%;
-          margin-right: -1.2rem;
-          top: 50%;
-          margin-top: -4px;
-          height: 8px;
-          position: absolute;
-          width: 8px;
-          border-radius: 4px;
-          background-color: var(--ifm-color-primary);
-          transform: scale(0);
-          transition: .4s cubic-bezier(.4, 0, .2, 1);
+        /* Subtle background on hover */
+        &:hover {
+          background-color: rgb(195 207 211 / 16%);
         }
 
-        /* Background and dot for hover/active links */
-        &:hover,
+        /* Active link: highlight the whole item with an accent tint and
+           accent text - no left dot/line indicator. */
         &[aria-current="page"] {
-          background-color: rgb(195 207 211 / 16%) !important;
-
-          /* Show dot */
-          &::before {
-            transform: scale(1);
-          }
-        }
-
-        /* Turn dot into line for active link */
-        &[aria-current="page"]::before {
-          width: 2em;
-        }
-      }
-    }
-
-    .theme-doc-sidebar-item-category-level-1,
-    .theme-doc-sidebar-item-link-level-1 {
-      >.menu__link {
-        &::before {
-          margin-right: -2.2rem !important;
+          background-color: rgba(46, 189, 133, 0.14);
+          color: var(--ifm-color-primary);
         }
       }
     }

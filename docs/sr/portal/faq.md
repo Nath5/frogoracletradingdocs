@@ -1,5 +1,6 @@
 ---
-sidebar_position: 8
+sidebar_position: 9
+sidebar_label: Portal FAQ
 ---
 
 # Portal Frequently Asked Questions

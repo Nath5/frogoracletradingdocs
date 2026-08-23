@@ -7,7 +7,7 @@ const resolveGlob = require('resolve-glob');
 const config: Config = {
   title: 'FrogOracle Trading',
   tagline: 'Take your trading to the next level!',
-  favicon: 'img/frog_head2.svg',
+  favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://docs.frogoracletrading.com/',
@@ -21,7 +21,12 @@ const config: Config = {
   projectName: 'frogoracletradingdocs', // Usually your repo name.
   trailingSlash: false,
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  // Moved under markdown.hooks in Docusaurus 3.10 (top-level removed in v4).
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
 
   plugins: [require.resolve("docusaurus-plugin-image-zoom"), 'docusaurus-plugin-sass'],
@@ -51,14 +56,23 @@ const config: Config = {
   ],
 
   themeConfig: {
-    defaultMode: 'dark',
+    // Match the marketing site: dark navy by default, but keep the toggle.
+    colorMode: {
+      defaultMode: 'dark',
+      respectPrefersColorScheme: false,
+    },
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'FrogOracle Trading Docs',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/simplefrog.png',
+        alt: 'FrogOracle Trading',
+        // Matches the website/portal frog. Both modes use the same badge
+        // geometry so the frog renders at an identical size: light mode fills
+        // the circle navy so the white frog stays legible; dark mode leaves the
+        // circle transparent so only the frog shows on the dark header.
+        src: 'img/fo_frog_badge.svg',
+        srcDark: 'img/fo_frog_badge_dark.svg',
       },
       items: [
         {

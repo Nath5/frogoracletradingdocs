@@ -40,6 +40,7 @@ const sidebars: SidebarsConfig = {
             'sr/portal/news-insider',
             'sr/portal/calendar-earnings',
             'sr/portal/watchlist',
+            'sr/portal/drawing-tools',
             'sr/portal/faq'
           ]
         },

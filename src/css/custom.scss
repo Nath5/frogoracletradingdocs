@@ -125,16 +125,30 @@
   --color-dark-header-border: #256362; // Dark Header Border
 
 
-  /* Docusaurus Specific variables */
-  --ifm-color-primary: #25a14f;
-  --ifm-color-primary-dark: #1d743a;
-  --ifm-color-primary-darker: #005c8f;
-  --ifm-color-primary-darkest: #00324e;
-  --ifm-color-primary-light: #1699e2;
-  --ifm-color-primary-lighter: #30373b;
-  --ifm-color-primary-lightest: #77ceff;
-  --ifm-color-primary-contrast-background: #2276a7;
-  --ifm-color-primary-contrast-foreground: #00324e;
+  /* Marketing-site brand tokens (kept in sync with the portal/website).
+     Navy surfaces + #2ebd85 accent. Reused across both color modes. */
+  --fo-accent: #2ebd85;
+  --fo-accent-light: #4ccb99;
+  --fo-accent-dark: #26a474;
+  --fo-navy: #0b1220;        /* page background */
+  --fo-panel: #0f1727;       /* navbar / sidebar / cards / code */
+  --fo-navy-deep: #0a101c;   /* footer */
+  --fo-code: #131c2e;
+  --fo-border: rgba(255, 255, 255, 0.1);   /* white-10, the site's hairline */
+  --fo-text: #e2e8f0;        /* gray-50 */
+  --fo-text-dim: #8ba0b8;    /* gray-300 */
+
+  /* Docusaurus Specific variables. Light mode uses a slightly darker accent so
+     the green keeps contrast on white; dark mode (below) uses the brand #2ebd85. */
+  --ifm-color-primary: #1f8f64;
+  --ifm-color-primary-dark: #1c8159;
+  --ifm-color-primary-darker: #1a7a54;
+  --ifm-color-primary-darkest: #156445;
+  --ifm-color-primary-light: #229b6d;
+  --ifm-color-primary-lighter: #24a473;
+  --ifm-color-primary-lightest: #2ebd85;
+  --ifm-color-primary-contrast-background: #e6f6ef;
+  --ifm-color-primary-contrast-foreground: #0a3d2a;
   --ifm-color-secondary: #e0e7ee;
   --ifm-color-secondary-dark: #d5dee5;
   --ifm-color-secondary-darker: #c3cdd6;
@@ -196,8 +210,8 @@
   --ifm-heading-color: var(--color-gray-74);
   --ifm-footer-background-color: var(--color-gray-82);
   --ifm-color-content-secondary: #616d75;
-  --ifm-link-color: #25a14f;
-  --ifm-link-hover-color: #25a14f;
+  --ifm-link-color: #1f8f64;
+  --ifm-link-hover-color: #26a474;
   --ifm-menu-color: var(--ifm-color-content);
   --ifm-menu-color-active: var(--ifm-color-content);
   --ifm-toc-link-color: var(--ifm-color-content);
@@ -252,23 +266,61 @@
   --ifm-footer-padding-vertical: 3rem;
 }
 
-/* Dark Mode Styles */
+/* Dark Mode Styles - matched to the marketing site (navy #0b1220 + #2ebd85). */
 html[data-theme='dark'] {
-  --ifm-color-primary: #b0d870;
-  --ifm-link-color: #b0d870;
-  --ifm-heading-color: var(--color-gray-12);
-  --ifm-navbar-background-color: var(--color-gray-82);
-  --ifm-background-color: var(--color-gray-90);
+  --ifm-color-primary: #2ebd85;
+  --ifm-color-primary-dark: #29aa78;
+  --ifm-color-primary-darker: #26a06f;
+  --ifm-color-primary-darkest: #1f845c;
+  --ifm-color-primary-light: #47c793;
+  --ifm-color-primary-lighter: #52cb9a;
+  --ifm-color-primary-lightest: #74d6ac;
+  --ifm-link-color: #2ebd85;
+  --ifm-link-hover-color: var(--fo-accent-light);
+
+  --ifm-heading-color: var(--fo-text);
+  --ifm-navbar-background-color: var(--fo-panel);
+  --ifm-background-color: var(--fo-navy);
+  --ifm-background-surface-color: var(--fo-panel);
   --ifm-hero-background-color: var(--ifm-background-color);
-  --ifm-table-stripe-background: var(--color-gray-86-alpha-04);
-  --ifm-pre-background: var(--color-gray-86);
-  --ifm-code-background: var(--color-gray-86);
-  --ifm-dropdown-background-color: var(--color-gray-78);
-  --ifm-card-background-color: var(--color-gray-82);
-  --ifm-footer-background-color: var(--color-gray-82);
-  --collapse-button-bg-color-dark: var(--color-gray-86);
-  --docsearch-searchbox-background: var(--color-gray-90) !important;
-  --docsearch-searchbox-focus-background: var(--color-gray-86) !important;
+  --ifm-table-stripe-background: rgba(255, 255, 255, 0.03);
+  --ifm-table-border-color: var(--fo-border);
+  --ifm-toc-border-color: var(--fo-border);
+  --ifm-pre-background: var(--fo-panel);
+  --ifm-code-background: var(--fo-code);
+  --ifm-dropdown-background-color: var(--fo-panel);
+  --ifm-card-background-color: var(--fo-panel);
+  --ifm-footer-background-color: var(--fo-navy-deep);
+  --ifm-color-content-secondary: var(--fo-text-dim);
+  --ifm-toc-link-color: var(--fo-text-dim);
+  /* Sidebar item hairlines: use the site's white-10 rule, not the old teal. */
+  --color-dark-header-border: var(--fo-border);
+  --collapse-button-bg-color-dark: var(--fo-panel);
+  --docsearch-searchbox-background: var(--fo-navy) !important;
+  --docsearch-searchbox-focus-background: var(--fo-panel) !important;
+}
+
+/* Navbar: translucent glass with a hairline underline, echoing the website
+   header (bg-chrome + backdrop-blur + border-white-10). */
+html[data-theme='dark'] .navbar {
+  background-color: rgba(15, 23, 39, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--fo-border);
+  box-shadow: none;
+}
+
+/* Primary button (e.g. "Get the Indicator"): brand accent with dark text,
+   matching the website's CTA styling. */
+html[data-theme='dark'] .button--primary {
+  --ifm-button-color: #04241a;
+  --ifm-button-background-color: var(--fo-accent);
+  --ifm-button-border-color: var(--fo-accent);
+  font-weight: 600;
+}
+html[data-theme='dark'] .button--primary:hover {
+  --ifm-button-background-color: var(--fo-accent-light);
+  --ifm-button-border-color: var(--fo-accent-light);
 }
 
 
